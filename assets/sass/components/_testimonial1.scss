@@ -1,0 +1,75 @@
+.testimonial1 {
+    padding: 30px 0;
+    &__item {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        &__content {
+            font-size: 1.3rem;
+            display: block;
+            border-radius: 8px;
+            position: relative;
+            background-color: #fafafa;
+            padding: 50px 40px 75px 40px;
+            font-weight: 500;
+            margin: 0 5px -50px;
+            line-height: 1.6em;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+            font-style: italic;
+            &:before {
+                top: 30px;
+                left: 15px;
+                font-family: 'FontAwesome';
+                content: "\201C";
+                position: absolute;
+                font-size: 30px;
+                opacity: 0.3;
+                font-style: normal;
+            }
+            &:after {
+                content: "\201D";
+                right: 20px;
+                bottom: 50px;
+                font-family: 'FontAwesome';
+                position: absolute;
+                font-size: 30px;
+                opacity: 0.3;
+                font-style: normal;
+            }
+            p {
+                color: #333;
+                text-align: center;
+                font-weight: 400;
+                line-height: 1.6em;
+                font-style: italic;
+                font-size: 16px;
+                font-family: 'Poppins', sans-serif;
+            }
+        }
+        &__img {
+            img {
+                max-width: 100%;
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+                margin-bottom: 15px;
+                display: inline-block;
+                z-index: 1;
+                position: relative;
+                object-fit: cover;
+            }
+            h2 {
+                font-size: 1.6rem;
+                text-transform: capitalize;
+                margin: 0;
+                margin-bottom: 5px;
+                font-weight: 700;
+                line-height: 1.125;
+            }
+            p {
+            }
+        }
+    }
+}
