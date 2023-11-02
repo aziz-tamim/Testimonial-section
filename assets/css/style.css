@@ -63,6 +63,22 @@
       font-weight: 700;
       line-height: 1.125; }
 
+@media only screen and (max-width: 1199px) {
+  .d-flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; } }
+
+@media only screen and (max-width: 767px) {
+  .testimonial1__item__img h2 {
+    font-size: 1.4rem;
+    font-weight: 600; }
+  .d-flex {
+    grid-template-columns: 1fr 1fr; } }
+
+@media only screen and (max-width: 500px) {
+  .d-flex {
+    grid-template-columns: 1fr; } }
+
 .swiper-button-next:after {
   font-weight: 700;
   left: auto;
@@ -99,3 +115,10 @@ body {
     border-radius: 10px;
     text-decoration: none;
     transition: all 0.3s; }
+
+@media only screen and (max-width: 600px) {
+  .pagination {
+    padding: 25px 0; }
+    .pagination a {
+      font-size: 18px;
+      padding: 5px 10px; } }
