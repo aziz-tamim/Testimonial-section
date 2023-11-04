@@ -27,7 +27,9 @@ $(document).ready(function () {
             '480': {
               slidesPerView: 1,
               spaceBetween: 20,},
-
+            '0': {
+              slidesPerView: 1,
+              spaceBetween: 20,},
           },
       });
 });
