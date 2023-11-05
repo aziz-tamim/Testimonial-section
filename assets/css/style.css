@@ -71,14 +71,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; } }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 832px) {
   .testimonial1__item__img h2 {
     font-size: 1.4rem;
     font-weight: 600; }
   .d-flex {
     grid-template-columns: 1fr 1fr; } }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 540px) {
   .d-flex {
     grid-template-columns: 1fr; } }
 
